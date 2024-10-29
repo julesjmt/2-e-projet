@@ -1,0 +1,54 @@
+/* css/style.css */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+/* Style global */
+body {
+    background-color: #C7D5E0;
+    color: #235789;
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 200;
+    text-align: center;
+}
+
+/* Conteneur principal */
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+/* Grille de cartes */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrer les cartes dans la grille */
+}
+
+/* Style pour chaque carte */
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.card img {
+    width: 150px;
+}
+
+.card h3 {
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+
+
+
+

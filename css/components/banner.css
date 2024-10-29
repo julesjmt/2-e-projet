@@ -1,0 +1,44 @@
+/* css/components/banner.css */
+.banner {
+    background-image: url("../../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    color: white;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 50px;
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: bold;
+    color: #D98324;
+
+}
+
+.banner h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 3;
+    margin-top: 10px;
+    font-family: "Roboto Mono", sans-serif;
+    color: #A40606;
+}
+
+.btn-blue {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.btn-blue:hover {
+    background-color: darkblue;
+}
+
+
+
+
+

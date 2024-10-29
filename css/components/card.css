@@ -1,0 +1,36 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centre les cartes dans la grille */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    flex-basis: 250px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.card img {
+    width: 150px;
+    height: auto; /* Assure que l'image conserve son ratio */
+}
+
+.card h3 {
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+.card p {
+    color: #21384F;
+    font-size: 16px;
+}
+
